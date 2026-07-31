@@ -150,3 +150,21 @@ navLinks.classList.toggle("active");
 });
 
 }
+// Gallery Popup
+
+
+function openImage(image){
+
+document.getElementById("imagePopup").style.display="flex";
+
+document.getElementById("popupImage").src=image;
+
+}
+
+
+
+function closeImage(){
+
+document.getElementById("imagePopup").style.display="none";
+
+}
