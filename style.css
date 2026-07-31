@@ -1382,3 +1382,19 @@ Ideal accommodation for business visits, family trips and private stays.
 
 
 </section>
+.designer-credit {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.designer-credit a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.designer-credit a:hover {
+    text-decoration: underline;
+}
