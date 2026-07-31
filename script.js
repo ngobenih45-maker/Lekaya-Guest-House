@@ -133,3 +133,20 @@ window.addEventListener(
 "scroll",
 reveal
 );
+// Mobile Menu Toggle
+
+
+const menuToggle = document.querySelector(".menu-toggle");
+
+const navLinks = document.querySelector(".nav-links");
+
+
+if(menuToggle){
+
+menuToggle.addEventListener("click",()=>{
+
+navLinks.classList.toggle("active");
+
+});
+
+}
