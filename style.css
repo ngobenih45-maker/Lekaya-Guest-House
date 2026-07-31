@@ -922,3 +922,25 @@ color:white;
 cursor:pointer;
 
 }
+/* Logo */
+
+
+.logo img{
+
+width:80px;
+
+height:80px;
+
+object-fit:contain;
+
+}
+
+
+
+.navbar .logo{
+
+display:flex;
+
+align-items:center;
+
+}
